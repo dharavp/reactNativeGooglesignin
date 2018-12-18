@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "852745069307",
+    "firebase_url": "https://reactnativesignin-9e8d4.firebaseio.com",
+    "project_id": "reactnativesignin-9e8d4",
+    "storage_bucket": "reactnativesignin-9e8d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852745069307:android:90e9707fe958c72b",
+        "android_client_info": {
+          "package_name": "com.reactnativegooglesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852745069307-codeu42hqocg5aqgbo2gltp1fv19chg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnLyYLomiAcrlJRLPpGxO-KV99iP4FDU4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

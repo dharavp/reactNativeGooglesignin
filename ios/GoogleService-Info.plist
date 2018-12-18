@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>852745069307-7jop6h5kdr7jnm45l4b3l1s913f495tv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.852745069307-7jop6h5kdr7jnm45l4b3l1s913f495tv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBE7BTf_gLA53Wi9T5P0FCMHD4NUUWyVQY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>852745069307</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.reactNativeGoogleSignIn</string>
+	<key>PROJECT_ID</key>
+	<string>reactnativesignin-9e8d4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>reactnativesignin-9e8d4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:852745069307:ios:6e91ee67ce063d03</string>
+	<key>DATABASE_URL</key>
+	<string>https://reactnativesignin-9e8d4.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'reactNativeGoogleSignIn' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for reactNativeGoogleSignIn
+pod 'Firebase'
+pod 'Firebase/Core'
+pod 'GoogleSignIn'
+
+target 'reactNativeGoogleSignInTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'reactNativeGoogleSignIn-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for reactNativeGoogleSignIn-tvOS
+
+  target 'reactNativeGoogleSignIn-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
