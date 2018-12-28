@@ -35,6 +35,12 @@ const store = createStore(
 );
 let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
 class Root extends React.Component {
+    componentWillMount() {
+        codePush.sync({
+            updateDialog: true,
+            installMode: codePush.InstallMode.IMMEDIATE
+        });
+    }
     render() {
         return (
             <Provider store={store}>
