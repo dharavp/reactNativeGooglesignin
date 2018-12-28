@@ -32,7 +32,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new CodePush("uQmDT8Y_xYBowaoWnGH2cUF2dRgB98d3e5db-78f2-4b0b-bce9-265156033c3e", getApplicationContext(), BuildConfig.DEBUG),
+            new CodePush("X5H41mH1yDBSrcpi59juhK5jPKfZ98d3e5db-78f2-4b0b-bce9-265156033c3e", getApplicationContext(), BuildConfig.DEBUG),
             new RNGoogleSigninPackage(),
             new RNGestureHandlerPackage()
       );
