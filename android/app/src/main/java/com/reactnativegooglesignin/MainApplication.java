@@ -3,6 +3,7 @@ package com.reactnativegooglesignin;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.microsoft.codepush.react.CodePush;
 import co.apptailor.googlesignin.RNGoogleSigninPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
@@ -16,6 +17,12 @@ import java.util.List;
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+
+        @Override
+        protected String getJSBundleFile() {
+        return CodePush.getJSBundleFile();
+        }
+    
     @Override
     public boolean getUseDeveloperSupport() {
       return BuildConfig.DEBUG;
@@ -25,6 +32,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new CodePush("uQmDT8Y_xYBowaoWnGH2cUF2dRgB98d3e5db-78f2-4b0b-bce9-265156033c3e", getApplicationContext(), BuildConfig.DEBUG),
             new RNGoogleSigninPackage(),
             new RNGestureHandlerPackage()
       );
