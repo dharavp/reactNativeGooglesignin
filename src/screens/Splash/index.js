@@ -58,6 +58,14 @@ export default class Splash extends Component {
                     }}>
                         <Text style={{ color: 'white' }}>Google SignIn</Text>
                     </View>
+                    <View style={{
+                        width: '100%', height: '100%',
+                        justifyContent: 'center', alignItems: 'center'
+                    }}>
+                        <Text style={{ color: '#000' }}>Hello</Text>
+
+                    </View>
+
                 </TouchableOpacity>
             </View>
         );
