@@ -60,6 +60,8 @@ export default class Splash extends Component {
                     </View>
 
                     <Text style={{ color: '#000' }}>Updated text</Text>
+                    <Text style={{ color: '#000' }}>second text</Text>
+
                 </TouchableOpacity>
             </View>
         );
