@@ -25,11 +25,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1A12662A21DCC80500F5AF78 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1265E921DCC1C200F5AF78 /* libz.tbd */; };
 		1A8B6F7621C7D77700F28037 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A8B6F7521C7D77700F28037 /* GoogleService-Info.plist */; };
 		1A8B6FC121C7DB7700F28037 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B6FC021C7DB7700F28037 /* AddressBook.framework */; };
 		1A8B6FC321C7DB8300F28037 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B6FC221C7DB8300F28037 /* SafariServices.framework */; };
 		1A8B6FC521C7DB9200F28037 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B6FC421C7DB9200F28037 /* SystemConfiguration.framework */; };
-		1A8B6FC721C7DBA200F28037 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8B6FC621C7DBA200F28037 /* libz.tbd */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -364,6 +364,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactNativeGoogleSignIn/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactNativeGoogleSignIn/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1A1265E921DCC1C200F5AF78 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1A8B6F7521C7D77700F28037 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1A8B6F9321C7DB1A00F28037 /* libPods-reactNativeGoogleSignIn-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-reactNativeGoogleSignIn-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8B6F9521C7DB1A00F28037 /* libPods-reactNativeGoogleSignIn-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-reactNativeGoogleSignIn-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -371,7 +372,6 @@
 		1A8B6FC021C7DB7700F28037 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		1A8B6FC221C7DB8300F28037 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		1A8B6FC421C7DB9200F28037 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		1A8B6FC621C7DBA200F28037 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		1CE53B00502D651B24BE970B /* Pods-reactNativeGoogleSignIn-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeGoogleSignIn-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reactNativeGoogleSignIn-tvOSTests/Pods-reactNativeGoogleSignIn-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		228B5127D807A107FC8FD637 /* libPods-reactNativeGoogleSignIn-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeGoogleSignIn-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* reactNativeGoogleSignIn-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactNativeGoogleSignIn-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -412,7 +412,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A8B6FC721C7DBA200F28037 /* libz.tbd in Frameworks */,
+				1A12662A21DCC80500F5AF78 /* libz.tbd in Frameworks */,
 				1A8B6FC521C7DB9200F28037 /* SystemConfiguration.framework in Frameworks */,
 				1A8B6FC321C7DB8300F28037 /* SafariServices.framework in Frameworks */,
 				1A8B6FC121C7DB7700F28037 /* AddressBook.framework in Frameworks */,
@@ -609,7 +609,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1A8B6FC621C7DBA200F28037 /* libz.tbd */,
+				1A1265E921DCC1C200F5AF78 /* libz.tbd */,
 				1A8B6FC421C7DB9200F28037 /* SystemConfiguration.framework */,
 				1A8B6FC221C7DB8300F28037 /* SafariServices.framework */,
 				1A8B6FC021C7DB7700F28037 /* AddressBook.framework */,
@@ -1419,11 +1419,7 @@
 				INFOPLIST_FILE = reactNativeGoogleSignInTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1448,11 +1444,7 @@
 				INFOPLIST_FILE = reactNativeGoogleSignInTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1532,11 +1524,7 @@
 				);
 				INFOPLIST_FILE = "reactNativeGoogleSignIn-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1569,11 +1557,7 @@
 				);
 				INFOPLIST_FILE = "reactNativeGoogleSignIn-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1605,11 +1589,7 @@
 				);
 				INFOPLIST_FILE = "reactNativeGoogleSignIn-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1641,11 +1621,7 @@
 				);
 				INFOPLIST_FILE = "reactNativeGoogleSignIn-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
