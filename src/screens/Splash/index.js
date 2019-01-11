@@ -60,7 +60,13 @@ export default class Splash extends Component {
                     </View>
 
                     <Text style={{ color: '#000' }}>second text</Text>
-                    <Text style={{ color: '#000' }}>fourth text</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => {
+                    alert('hii')
+                }}>
+                    <View style={{ width: 100, height: 100, marginTop: 10, backgroundColor: 'green' }}>
+                        <Text style={{ color: 'white' }}>New Button</Text>
+                    </View>
                 </TouchableOpacity>
             </View>
         );
