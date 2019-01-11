@@ -37,7 +37,7 @@ let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
 class Root extends React.Component {
     componentWillMount() {
         codePush.sync({
-            updateDialog: true,
+            updateDialog: false,
             installMode: codePush.InstallMode.IMMEDIATE
         });
     }
