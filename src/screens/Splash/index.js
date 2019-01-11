@@ -70,7 +70,7 @@ export default class Splash extends Component {
                         alignItems: 'center',
                         backgroundColor: 'green'
                     }}>
-                        <Text style={{ color: 'white' }}>New Button</Text>
+                        <Text style={{ color: 'white' }}>Dhara Patel</Text>
                     </View>
                 </TouchableOpacity>
             </View>
