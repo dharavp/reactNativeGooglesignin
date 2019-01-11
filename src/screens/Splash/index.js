@@ -58,13 +58,18 @@ export default class Splash extends Component {
                     }}>
                         <Text style={{ color: 'white' }}>Google SignIn</Text>
                     </View>
-
-                    <Text style={{ color: '#000' }}>second text</Text>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => {
-                    alert('hii')
-                }}>
-                    <View style={{ width: 100, height: 100, marginTop: 10, backgroundColor: 'green' }}>
+                <TouchableOpacity
+                    style={{ marginTop: 20 }}
+                    onPress={() => {
+                        alert('hii')
+                    }}>
+                    <View style={{
+                        width: 100, height: 100,
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        backgroundColor: 'green'
+                    }}>
                         <Text style={{ color: 'white' }}>New Button</Text>
                     </View>
                 </TouchableOpacity>
